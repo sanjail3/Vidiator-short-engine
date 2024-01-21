@@ -1,0 +1,46 @@
+{
+    "captions": [
+        {
+            "start": "00:00",
+            "end": "00:10",
+            "text": "Welcome to our video. Today, we're diving deep into the world of cars.",
+            "keyword": "Introduction to cars",
+            "prompt": "A close-up of a car's front grille, headlights, and emblem."
+        },
+        {
+            "start": "00:10",
+            "end": "00:20",
+            "text": "From their early beginnings to the modern marvels we see today, cars have undergone a significant evolution.",
+            "keyword": "History of cars",
+            "prompt": "A montage of vintage cars transitioning to modern cars."
+        },
+        {
+            "start": "00:20",
+            "end": "00:30",
+            "text": "Let's start by understanding how a car works. The heart of a car is its engine.",
+            "keyword": "Car engine",
+            "prompt": "Animation showing the internal workings of a car engine."
+        },
+        {
+            "start": "00:30",
+            "end": "00:40",
+            "text": "From the engine, power is transmitted through the drivetrain to the wheels.",
+            "keyword": "Drivetrain and wheels",
+            "prompt": "Animation showing power transmission from the engine to the wheels."
+        },
+        {
+            "start": "00:40",
+            "end": "00:50",
+            "text": "Modern cars are also equipped with various safety features like airbags and ABS.",
+            "keyword": "Car safety features",
+            "prompt": "Animation showing the deployment of airbags and the application of ABS during braking."
+        },
+        {
+            "start": "00:50",
+            "end": "01:00",
+            "text": "And that's a quick overview of cars. Stay tuned for more detailed videos on each component.",
+            "keyword": "Closing",
+            "prompt": "A collage of various car components: engine, wheels, airbags, etc."
+        }
+    ]
+}
