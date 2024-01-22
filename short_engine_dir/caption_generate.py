@@ -9,13 +9,9 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 
 
-<<<<<<< HEAD
+
 TextClip.PATH_TO_IMAGEMAGICK = 'ImageMagick-7.0.11-Q16-HDRI/magick.exe'
-=======
 
-
-
->>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
 
 
 
