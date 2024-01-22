@@ -1,6 +1,5 @@
 from elevenlabs import generate,save
 import json
-from elevenlabs import set_api_key
 from dotenv import load_dotenv
 import os
 load_dotenv()
@@ -66,17 +65,10 @@ def generate_voice():
     # Since we have one input, one output will exist here
     output = post_model_outputs_response.outputs[0]
 
-    print(output)
 
     print("Predicted concepts:")
     for concept in output.data.concepts:
         print("%s %.2f" % (concept.name, concept.value))
 
-    # audio = generate(
-    #     text=text,
-    #     voice="Sarah",
-    #     model="eleven_multilingual_v2"
-    # )
-    #
     print(output.data.audio)
     save(output.data.audio.base64, filename="output.wav")
