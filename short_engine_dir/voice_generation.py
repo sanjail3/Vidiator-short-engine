@@ -1,11 +1,9 @@
 from elevenlabs import generate,save
 import json
-from elevenlabs import set_api_key
 from dotenv import load_dotenv
 import os
 load_dotenv()
 PAT = os.environ.get('CLARIFAI_TOKEN')
-
 from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
 from clarifai_grpc.grpc.api import resources_pb2, service_pb2, service_pb2_grpc
 from clarifai_grpc.grpc.api.status import status_code_pb2
@@ -37,7 +35,7 @@ def generate_voice():
     for caption in script_data['captions']:
         text += caption['text'] + " "
 
-    print(text)
+
 
     post_model_outputs_response = stub.PostModelOutputs(
         service_pb2.PostModelOutputsRequest(
@@ -66,17 +64,9 @@ def generate_voice():
     # Since we have one input, one output will exist here
     output = post_model_outputs_response.outputs[0]
 
-    print(output)
 
-    print("Predicted concepts:")
-    for concept in output.data.concepts:
-        print("%s %.2f" % (concept.name, concept.value))
 
-    # audio = generate(
-    #     text=text,
-    #     voice="Sarah",
-    #     model="eleven_multilingual_v2"
-    # )
-    #
-    print(output.data.audio)
+
+
+
     save(output.data.audio.base64, filename="output.wav")

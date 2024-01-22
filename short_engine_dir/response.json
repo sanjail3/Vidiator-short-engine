@@ -3,44 +3,44 @@
         {
             "start": "00:00",
             "end": "00:10",
-            "text": "Welcome to our video. Today, we're diving deep into the world of cars.",
+            "text": "Welcome to our latest video, today we're diving deep into the world of cars.",
             "keyword": "Introduction to cars",
-            "prompt": "A close-up of a car's front grille, headlights, and emblem."
+            "prompt": "A world map with cars driving on roads"
         },
         {
             "start": "00:10",
             "end": "00:20",
-            "text": "From their early beginnings to the modern marvels we see today, cars have undergone a significant evolution.",
-            "keyword": "History of cars",
-            "prompt": "A montage of vintage cars transitioning to modern cars."
+            "text": "From vintage models to futuristic concepts, cars have shaped our world and continue to do so.",
+            "keyword": "Vintage and futuristic cars",
+            "prompt": "Vintage car and futuristic car side by side"
         },
         {
             "start": "00:20",
             "end": "00:30",
-            "text": "Let's start by understanding how a car works. The heart of a car is its engine.",
-            "keyword": "Car engine",
-            "prompt": "Animation showing the internal workings of a car engine."
+            "text": "Let's start with the history of cars, from the invention of the first steam-powered vehicle.",
+            "keyword": "History of cars",
+            "prompt": "The first steam-powered vehicle"
         },
         {
             "start": "00:30",
             "end": "00:40",
-            "text": "From the engine, power is transmitted through the drivetrain to the wheels.",
-            "keyword": "Drivetrain and wheels",
-            "prompt": "Animation showing power transmission from the engine to the wheels."
+            "text": "Fast forward to today, where we have cars that can drive themselves.",
+            "keyword": "Self-driving cars",
+            "prompt": "A self-driving car on a city street"
         },
         {
             "start": "00:40",
             "end": "00:50",
-            "text": "Modern cars are also equipped with various safety features like airbags and ABS.",
-            "keyword": "Car safety features",
-            "prompt": "Animation showing the deployment of airbags and the application of ABS during braking."
+            "text": "And what does the future hold? Cars that fly? Cars that run on water?",
+            "keyword": "Future of cars",
+            "prompt": "A flying car over a city"
         },
         {
             "start": "00:50",
             "end": "01:00",
-            "text": "And that's a quick overview of cars. Stay tuned for more detailed videos on each component.",
-            "keyword": "Closing",
-            "prompt": "A collage of various car components: engine, wheels, airbags, etc."
+            "text": "Stay tuned as we explore the exciting evolution of cars. Thanks for watching.",
+            "keyword": "Conclusion",
+            "prompt": "A montage of different types of cars"
         }
     ]
 }

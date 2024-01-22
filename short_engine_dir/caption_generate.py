@@ -1,21 +1,15 @@
 from faster_whisper import WhisperModel
 import json
-
 from moviepy.editor import TextClip, CompositeVideoClip, concatenate_videoclips, VideoFileClip, ColorClip
 import os
 
-from tensorflow.python.client import device_lib
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-
-# Set TensorFlow to use CPU (useful for inference only)
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 
-# Verify that TensorFlow is using CPU
-print(device_lib.list_local_devices())
 
-TextClip.PATH_TO_IMAGEMAGICK = r'C:\Program Files\ImageMagick-7.0.11-Q16-HDRI\magick.exe'
+TextClip.PATH_TO_IMAGEMAGICK = 'ImageMagick-7.0.11-Q16-HDRI/magick.exe'
 
 
 
@@ -115,7 +109,7 @@ linelevel_subtitles = split_text_into_lines(wordlevel_info_modified)
 
 for line in linelevel_subtitles:
   json_str = json.dumps(line, indent=4)
-  print(json_str)
+
 
 
 def create_caption(textJSON, framesize,font = "Aerial",color='white', highlight_color='yellow',stroke_color='black',stroke_width=1.5):
@@ -243,7 +237,7 @@ def generate_captions(video_name):
     final_video.write_videofile("output_video.mp4", fps=24, codec="libx264", audio_codec="aac")
 
 
-# generate_captions("final_video_with_background.mp4")
+
 
 
 
