@@ -66,8 +66,7 @@ def get_response(topic):
 
     output = post_model_outputs_response.outputs[0]
 
-    print("Completion:\n")
-    print(output.data.text.raw)
+    
 
 
 
@@ -78,7 +77,7 @@ def get_response(topic):
     with open('short_engine_dir/response.json', 'w') as json_file:
         json.dump(response_data, json_file, indent=4)
 
-    print(output)
+   
 
 
 
