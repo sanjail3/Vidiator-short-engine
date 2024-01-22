@@ -36,8 +36,7 @@ def generate_voice():
     for caption in script_data['captions']:
         text += caption['text'] + " "
 
-    print(text)
-
+    
     post_model_outputs_response = stub.PostModelOutputs(
         service_pb2.PostModelOutputsRequest(
             user_app_id=userDataObject,
@@ -70,5 +69,5 @@ def generate_voice():
     for concept in output.data.concepts:
         print("%s %.2f" % (concept.name, concept.value))
 
-    print(output.data.audio)
+    
     save(output.data.audio.base64, filename="output.wav")
