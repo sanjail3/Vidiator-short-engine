@@ -15,7 +15,7 @@ os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 # Verify that TensorFlow is using CPU
 print(device_lib.list_local_devices())
 
-TextClip.PATH_TO_IMAGEMAGICK = r'C:\Program Files\ImageMagick-7.0.11-Q16-HDRI\magick.exe'
+
 
 
 
