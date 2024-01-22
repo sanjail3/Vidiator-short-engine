@@ -35,12 +35,7 @@ def generate_voice():
     for caption in script_data['captions']:
         text += caption['text'] + " "
 
-<<<<<<< HEAD
 
-
-=======
-    
->>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
     post_model_outputs_response = stub.PostModelOutputs(
         service_pb2.PostModelOutputsRequest(
             user_app_id=userDataObject,
@@ -67,14 +62,4 @@ def generate_voice():
 
     # Since we have one input, one output will exist here
     output = post_model_outputs_response.outputs[0]
-
-
-
-<<<<<<< HEAD
-
-
-
-=======
-    
->>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
     save(output.data.audio.base64, filename="output.wav")
