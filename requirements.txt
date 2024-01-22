@@ -9,3 +9,5 @@ torchaudio
 moviepy
 tensorflow
 elevenlabs
+whisper-timestamped
+faster-whisper
