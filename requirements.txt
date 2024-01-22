@@ -7,3 +7,5 @@ tiktoken
 torch
 torchaudio
 moviepy
+tensorflow
+elevenlabs
