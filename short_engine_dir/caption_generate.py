@@ -9,7 +9,13 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 
 
+<<<<<<< HEAD
 TextClip.PATH_TO_IMAGEMAGICK = 'ImageMagick-7.0.11-Q16-HDRI/magick.exe'
+=======
+
+
+
+>>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
 
 
 
@@ -109,7 +115,11 @@ linelevel_subtitles = split_text_into_lines(wordlevel_info_modified)
 
 for line in linelevel_subtitles:
   json_str = json.dumps(line, indent=4)
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
 
 
 def create_caption(textJSON, framesize,font = "Aerial",color='white', highlight_color='yellow',stroke_color='black',stroke_width=1.5):
