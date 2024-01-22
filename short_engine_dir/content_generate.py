@@ -66,11 +66,6 @@ def get_response(topic):
 
     output = post_model_outputs_response.outputs[0]
 
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
 
 
 
@@ -81,11 +76,7 @@ def get_response(topic):
     with open('short_engine_dir/response.json', 'w') as json_file:
         json.dump(response_data, json_file, indent=4)
 
-<<<<<<< HEAD
 
-=======
-   
->>>>>>> 1e2f697b458914ba6c2331653d587beba3ecfcd8
 
 
 
