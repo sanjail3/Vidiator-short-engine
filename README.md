@@ -5,7 +5,7 @@
 This is a template repository to make it easy to get started creating a UI module with Clarifai.
 
 
-## To use this repo
+### To use this repo
 
 1. Click the "Use this template" green button on github to make a repo from this repo template and give it a name of the format module-{XYZ} filling in the XYZ portion.
 2. Clone the new repo as normal to your development environment.
